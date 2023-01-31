@@ -4,9 +4,9 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 export const PrivateRoutes = (props) => {
   return (
     <BrowserRouter>
-      <Routes>
+      {/* <Routes>
         <Route path={props.path} element={props.element} />
-      </Routes>
+      </Routes> */}
     </BrowserRouter>
   );
 }
